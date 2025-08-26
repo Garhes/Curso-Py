@@ -45,3 +45,14 @@ my_list.clear() # Lo que hace clear es eliminar todos los elementos de la lista
 
 print(my_list)
 print(type(my_list))
+
+my_list = [1, 2, 3, 4, 5]
+
+copy_list = my_list.copy() # Copia toda la lista que se le indica 
+print(copy_list)
+
+my_list.reverse() # Invierte el orden de la lista original
+print(my_list)
+
+my_list.sort() # Ordena la lista original en orden ascendente
+print(my_list)
