@@ -33,3 +33,15 @@ print(number_1) # Imprimimos el resto de la lista que no se ha desempaquetado
 lista1 = [1,2,3,4,5]
 lista2 = [6,7,8,9,10]
 print(lista1 + lista2)
+
+my_list = [1, 2, 3, 4, 5]
+new_list = [6, 7, 8, 9, 10]
+my_list.append(11) # Lo que hace append es agregar un solo elemento al final de la lista
+my_list.insert(0, 0) # Lo que hace insert es agregar un elemento en la posicion que le indiquemos
+my_list.extend(new_list) # Lo que hace extend es agregar varios elementos al final de la lista
+my_list.remove(3) # Lo que hace remove es eliminar la primera ocurrencia del valor
+my_list.pop() # Lo que hace pop es eliminar el ultimo elemento de la lista
+my_list.clear() # Lo que hace clear es eliminar todos los elementos de la lista
+
+print(my_list)
+print(type(my_list))
